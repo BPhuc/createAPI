@@ -1,0 +1,26 @@
+{
+  "name": "projectapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --inspect index.js",
+    "test": "api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BPhuc/createAPI.git"
+  },
+  "author": "Ba Phuc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BPhuc/createAPI/issues"
+  },
+  "homepage": "https://github.com/BPhuc/createAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
